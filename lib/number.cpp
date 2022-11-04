@@ -193,6 +193,10 @@ bool operator!=(const uint2022_t& lhs, const uint2022_t& rhs) {
     return !(lhs == rhs);
 }
 
+double SquareRoot(const uint2022_t lhs) {
+    return sqrt(lhs);
+}
+
 std::ostream& operator<<(std::ostream& stream, const uint2022_t& value) {
     // Algorithm:
     // We have std::bitset, if currentrly
